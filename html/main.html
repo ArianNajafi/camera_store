@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>shpping cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="/css/shop.css" rel="stylesheet">
+        <link href="/css/myFont.css" rel="stylesheet">
+    </head>
+
+<body>
+    <!-- header -->
+    <nav id="navber">
+        <div class="navContent">
+            <span class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <p class="title">Camera Store</p>
+            <span class="showCart-btn">
+                <i class="fas fa-cart-plus"></i>
+                <span class="cart-items">0</span>
+            </span>
+        </div>
+    </nav>
+
+    <!-- producta-section -->
+    <section style="display: flex; flex-direction: column; align-items: center;">
+        <div class="products">
+            <h2 class="products-title">products</h2>
+            <!--single products-->
+            <section class="products-center"></section>
+        </div>    
+        <!-- show cart for user -->
+        <div class="backCart"></div>
+        <div class="cart-modal">
+            <h3 class="cart-title">your cart</h3>
+            <div class="cart-content">
+                <!-- product-in-cart -->
+                <!-- <div class="selected-product">
+                    <div class="productImg-inCart-div">
+                        <img src="/img/img1.jpg" class="productImg-inCart" alt="img-1">
+                    </div>
+                    <div class="productInfo-inCart">
+                        <p class="productName-inCart"> name of product</p>
+                        <p class="productprice-inCart">$ 230.5</p>
+                    </div>
+                    <div class="chaneNumber-of-product">
+                        <i class="fas fa-plus-square"></i>
+                        <p class="number-of-document">1</p>
+                        <i class="fas fa-minus-square"></i>
+                    </div>
+                    <i class="fas fa-trash"></i>
+                </div> -->
+            </div>
+            <div class="cart-footer">
+                <p class="total-price"></p>
+                <button class="clearCart-btn">clear cart</button>
+                <button class="confirm-btn">confirm</button>
+            </div>
+        </div>        
+    </section>
+</body>
+<script src="/js/shop.js" type="module"></script>
+</html>

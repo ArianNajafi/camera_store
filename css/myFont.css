@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "vazir-regular";
+    src: url(/font/vazir_font/Vazir-Regular.woff2);
+}
+@font-face{
+    font-family: "vazir-black";
+    src: url(/font/vazir_font/Vazir-Black.woff2);
+}
+@font-face {
+    font-family: 'vazir-light';
+    src: url(/font/vazir_font/Vazir-Light.woff);
+}
