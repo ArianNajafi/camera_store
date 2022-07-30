@@ -155,7 +155,7 @@ nav#navber{
     top: -100%;
     margin: 0 auto;
     position: absolute;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.1s ease-in-out;
     box-shadow: 3px 2px 15px rgb(58, 58, 58);
 }
     /*cart Content style*/
